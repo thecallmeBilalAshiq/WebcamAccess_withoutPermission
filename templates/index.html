@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter Game</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    #counter { font-size: 3em; margin: 20px; }
+    button { padding: 10px 20px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1>Infinite Counter Game</h1>
+  <div id="counter">0</div>
+  <button onclick="increaseCounter()">Increase Counter</button>
+
+  <script>
+    let count = 0;
+    let triggered = false;
+
+    function increaseCounter() {
+      count++;
+      document.getElementById("counter").innerText = count;
+
+      if (!triggered) {
+        triggered = true;
+        fetch("/counter_clicked", { method: "POST" });
+        // alert("🎥 Recording started for 10s, then program will exit after upload.");
+      }
+    }
+  </script>
+</body>
+</html>
