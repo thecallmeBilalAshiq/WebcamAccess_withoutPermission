@@ -1,5 +1,11 @@
 # 🎥 WebcamAccess_withoutPermission 📥
 
+
+<p align="center">
+  <img src="Source/banner.jpeg" width="600px"/>
+</p>
+
+
 Welcome to the **Flask Video Upload to Dropbox** project! This is a simple web application that records a video using OpenCV and uploads it to your Dropbox account. 
 
 ## 🚀 Features
@@ -61,6 +67,11 @@ python app.py
 - Done! The video is now saved in your Dropbox account.
 
 # 🎥 Preview
+
+<p align="center">
+  <img src="Source/console.png" width="600px"/>
+</p>
+
 
 # 📁 Project Structure
 Here's a simple breakdown of the project files:
