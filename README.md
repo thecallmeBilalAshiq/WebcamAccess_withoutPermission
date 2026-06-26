@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="Source/banner.jpeg" width="600px"/>
+  <img src="Source/webcam-banner.png" width="600px"/>
 </p>
 
 
